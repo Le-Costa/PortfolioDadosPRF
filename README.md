@@ -4,13 +4,15 @@ Nele trouxe uma análise dos acidentes registrados na base de dados da PRF do an
 
 Os dados foram extraídos em arquivos CSV disponiveis na base pública da PRF e trasnformados com Excel e Python, a visualização ficou por conta do Power BI.
 
+Visualização do dashboard: [Projeto PRF](https://app.powerbi.com/view?r=eyJrIjoiMmYxZjhmODYtM2U3Mi00NTBiLTgxN2YtYTJjYmI3YzhjZmY3IiwidCI6ImFiNmE4ZjI0LTBhNGQtNDljYy1iYzBlLWJmODRkMjEzYjY1OSJ9)
+
 ## Extração e transformação: 
 Na base os arquivos são separados por ano, para esse primeiro projeto optei por trabalhar apenas com o ano de 2024, froam extraídos dois arquivos CSV, no primeiro continham todos os acidentes sem repetição. 
 No segundo eram agrupados por pessoa, por tanto tinham várias pessoas para um messmo acidente, como esse arquivo continha mais dados optei por trbalhar somente com ele.
 Comecei substituindo dados em branco por "Não informado",retirando colunas que não eram pertinentes para análise tratando alguns pontos especificos, como na coluna de idade onde continham registros como 1000, para todos esses irreais, substitui por 999 
 para desconsidera-los na análise. 
 Atribui ID's para todos os campos presentes na planilha com base em "tabelas" dimensões que eu criei. Esse processo foi feito com Python. 
-Os códigos utilizados estarão no arquivo Códigos.
+Os códigos utilizados também estão disponiveis.
 
 ## Análise: 
 Depois da trasnformação, fiz principalmente uma análise descritiva, procurando relacionar os tipos de acidentes com maior indice, a quantidade de acidentes por estado, generos e idade das pessoas que possuem maior taxa de envolvimento de aicdnetes, 
