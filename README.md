@@ -1,5 +1,5 @@
 # PortfolioDadosPRF
-Este é o meu primeiro projeto de análise de dados, meus foco aqui foi principalmente medir e aplicar meus conheciemntos adquiridos com meus estudos aqui.
+Este é o meu primeiro projeto de análise de dados, meus foco aqui foi principalmente medir e aplicar meus conheciemntos adquiridos com meus estudos até aqui.
 Nele trouxe uma análise dos acidentes registrados na base de dados da PRF do ano de 2024. Para essa ánalise usei Python, Pandas, Excel e Power BI. 
 
 Os dados foram extraídos em arquivos CSV disponiveis na base pública da PRF e trasnformados com Excel e Python, a visualização ficou por conta do Power BI.
