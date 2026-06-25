@@ -1,5 +1,5 @@
 # PortfolioDadosPRF
-Este é o meu primeiro projeto de análise de dados, meus foco aqui foi principalmente medir e aplicar meus conheciemntos adquiridos com meus estudos até aqui.
+Este é o meu primeiro projeto de análise de dados, meu foco aqui foi principalmente medir e aplicar meus conhecimentos em uma base não complexa.
 Nele trouxe uma análise dos acidentes registrados na base de dados da PRF do ano de 2024. Para essa ánalise usei Python, Pandas, Excel e Power BI. 
 
 Os dados foram extraídos em arquivos CSV disponiveis na base pública da PRF e transformados com Excel e Python, a visualização ficou por conta do Power BI.
@@ -18,8 +18,8 @@ Os códigos utilizados também estão disponiveis .
 Depois da transformação, fiz principalmente uma análise descritiva, procurando relacionar os tipos de acidentes com maior indice, a quantidade de acidentes por estado, gênero e idade das pessoas que possuem maior taxa de envolvimento em acidentes, 
 tipos de veículo, condições metereológicas e outras presentes no documento de descrição.
 ### Resultado da Análise: 
-Conforme análise obtida podemos identificar alguns indices em relação aos acidentes, por exemplo  o mês em que mais houve acidentes foi em dezembro, possivelmente por conta das festividades do mês, em relação ao horário foi possível identificar que ocorrem marjoritariamente no período das 16:00 as 20:00.
-Outra Boa métrica tirada, é que o o genero mais envolvido em acidentes é o masculino e quanto ao gênero feminino em mais de 50% das vezes era como passageiro.
+Conforme análise obtida foi possível identificar alguns indices em relação aos acidentes, por exemplo  o mês em que mais houve acidentes foi em dezembro, possivelmente por conta das festividades do mês, em relação ao horário foi possível identificar que ocorrem marjoritariamente no período das 16:00 as 20:00.
+Outra boa métrica tirada, é que o gênero mais envolvido em acidentes é o masculino e quanto ao gênero feminino em mais de 50% das vezes era como passageiro.
 Todas as métricas podem ser analisadas ao visualizar o dashboard, além disso estão descritas no documento do projeto.
 
 ##Dados Coletados:
